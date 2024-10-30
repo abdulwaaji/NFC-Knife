@@ -2,8 +2,27 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.NFCKnife" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="colorPrimaryVariant">@color/my_light_primary_variant</item>
+        <item name="colorOnPrimary">@color/my_light_on_primary</item>
+        <item name="colorSecondary">@color/my_light_secondary</item>
+        <item name="colorSecondaryVariant">@color/my_light_secondary_variant</item>
+        <item name="colorOnSecondary">@color/my_light_on_secondary</item>
+        <item name="colorOnBackground">@color/my_light_background</item>
+        <item name="colorSurface">@color/my_light_surface</item>
+        <item name="colorOnSurface">@color/my_light_on_surface</item>
     </style>
 
     <style name="Theme.NFCKnife" parent="Base.Theme.NFCKnife" />
+
+    <!-- Green color palette -->
+    <color name="my_light_primary">#4CAF50</color> <!-- Primary Green -->
+    <color name="my_light_primary_variant">#388E3C</color> <!-- Darker Green -->
+    <color name="my_light_on_primary">#FFFFFF</color> <!-- White text on primary -->
+    <color name="my_light_secondary">#8BC34A</color> <!-- Lighter Green -->
+    <color name="my_light_secondary_variant">#689F38</color> <!-- Darker Lighter Green -->
+    <color name="my_light_on_secondary">#000000</color> <!-- Black text on secondary -->
+    <color name="my_light_background">#F1F8E9</color> <!-- Light Green Background -->
+    <color name="my_light_surface">#FFFFFF</color> <!-- White surface -->
+    <color name="my_light_on_surface">#212121</color> <!-- Dark text on surface -->
 </resources>
